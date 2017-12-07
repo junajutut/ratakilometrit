@@ -1,0 +1,15 @@
+{
+  "name": "museojuna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.60.1"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/ -w",
+    "prepublish": "yarn run build"
+  }
+}
